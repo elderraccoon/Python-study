@@ -1,0 +1,196 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun May 22 22:15:09 2022
+
+@author: user
+"""
+
+#print("hello") #1
+#
+#print("Hello World") #2
+#
+#print("Hello\nWorld") #3
+#
+#print("'Hello'") #4
+#
+#print('"Hello World"') #5
+#
+#print('"!@#$%^&*()\'') #6
+#      
+#print('''"C:\\Download\\'hello'.py"''') #7
+#
+#print('''print("Hello\\nWorld")''') #8
+#
+#a=input()
+#print(a) #9
+#
+#n=input()
+#print(int(n)) #10
+#
+#f=input()
+#print(float(f)) #11
+#
+#a=input()
+#b=input()
+#print(int(a))
+#print(int(b)) #12
+#
+#a=input()
+#b=input()
+#print(b)
+#print(a) #13
+#
+#a=input()
+#print(a)
+#print(a)
+#print(a) #14
+#
+#a=input()
+#for i in range(1,4):
+#    print(a) #14변형
+#
+#a,b=input().split()
+#print(int(a))
+#print(int(b)) #15
+#
+#a,b=input().split()
+#print(b,a) #16
+#
+#s=input()
+#for i in range(1,4):
+#    print(s) #17변형
+#
+#a,b=input().split(':')
+#print(a,b,sep=':') #18
+#
+#y,m,d=input().split('.')
+#print(d,m,y,sep='-') #19
+#
+#birth,code=input().split('-')
+#int(birth)
+#int(code)
+#print(birth,code,sep='') #20
+#
+#s=input()
+#for i in range(0,5):
+#    print(s[i]) #21
+#
+#s=input()
+#print(s[0:2], s[2:4], s[4:6], sep=' ') #22
+#
+#s=input().split(':')
+#print(s[1]) #23
+#
+#w1,w2 = input().split()
+#s=w1+w2
+#print(s) #24
+#
+#a,b = input().split()
+#c=int(a)+int(b)
+#print(c) #25
+#
+#a=input()
+#b=input()
+#print(float(a)+float(b)) #26
+#
+#a=input()
+#n=int(a)
+#print('%x'%n)
+#
+#a=int(input())
+#print('%X'%a)
+#
+#a=input()
+#n=int(a,16)
+#print('%o'%n)
+#
+#n=ord(input()) #ord=문자를 숫자로 변형
+#print(n)
+#
+#c=int(input())
+#print(chr(c))
+#
+#a=int(input())
+#print(-a)
+#
+#n=ord(input())
+#print(chr(n+1))
+#
+#a,b=input().split(' ')
+#c=int(a)-int(b)
+#print(c)
+#
+#a,b=input().split(' ')
+#c=float(a)*float(b)
+#print(c)
+#
+#w,n=input().split()
+#print(w*int(n))
+#
+#n=input()
+#s=input()
+#print(int(n)*s)
+#
+#a,b=input().split()
+#c=int(a)**int(b)
+#print(c)
+#
+#a,b=input().split()
+#c=float(a)**float(b)
+#print(c)
+#
+#a,b=input().split()
+#c=int(a)//int(b)  #//=몫 연산자
+#print(c)
+#
+#a,b=input().split()
+#c=int(a)%int(b)
+#print(c)
+#
+#a=input()
+#a=float(a)
+#print(format(a,".2f"))
+#
+#a,b=input().split()
+#c=float(a)/float(b)
+#print(format(c,".3f")) #43
+#
+#a,b=input().split()
+#c=float(a)/float(b)
+#print(round(c,3))   #42재희
+#
+#a,b=input().split()
+#c=int(a)+int(b)
+#d=int(a)-int(b)
+#e=int(a)*int(b)
+#f=int(a)//int(b)
+#g=int(a)%int(b)
+#h=int(a)/int(b)
+#print(c)
+#print(d)
+#print(e)
+#print(f)
+#print(round(g,2))
+#print(round(h,2))
+#
+#a,b,c=input().split()
+#d=int(a)+int(b)+int(c)
+#e=int(d)/3
+#print(d,round(e,2))
+#
+#a=int(input())
+#print(a<<1)
+#
+#a,b=input().split()
+#c=int(a)<<int(b)
+#print(c)
+#
+#a,b=input().split()
+#print(int(a)<int(b))
+#
+#a,b=input().split()
+#print(int(a)==int(b))
+#
+#a,b=input().split()
+#print(int(a)<=int(b))
+#
